@@ -257,6 +257,15 @@ footer{
 }
 footer #insta, #whats{
   font-size: 30px;
+  transition: 0.3s ease-in-out;
+}
+
+footer #insta:hover{
+  color: #0b3030;
+
+}
+footer #whats:hover{
+  color: #0b3030;
 }
 #img-footer img{
   width: 190px;
