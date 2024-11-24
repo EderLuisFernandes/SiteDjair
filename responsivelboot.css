@@ -1,0 +1,284 @@
+@media (max-width: 1254px) {
+  #tamanho_do_texto {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1022px) {
+  #tamanho_do_texto {
+    font-size: 37px;
+  }
+}
+@media screen and (max-width:991px){
+  #row_section2{
+    text-align: center;
+    margin-left: 0;
+  }
+  .row {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 965px) {
+  .navbar-nav {
+    align-items: center;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 858px) {
+  #tamanho_do_texto {
+    font-size: 34px;
+  }
+}
+@media (max-width: 785px) {
+  #tamanho_do_texto {
+    font-size: 33px;
+  }
+  #lh-1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 770px) {
+  #tamanho_do_texto {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container-left {
+    text-align: center;
+  }
+  #lh-1 {
+    margin-top: 17px;
+    font-size: 40px;
+  }
+  #tamanho_do_texto {
+    font-size: 40px;
+  }
+  #img_fotoprincipal {
+    margin: 0 auto;
+    display: block;
+  }
+  #container_pai {
+    margin-left: 2px;
+  }
+  .lead_section4 {
+    color: #fff;
+    font-size: 23px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+}
+footer  #whats{
+  padding-right: 10px;
+}
+}
+@media screen and (max-width: 691px) {
+  #centralizar_tudo {
+    text-align: center;
+  }
+}
+
+@media (max-width: 540px) {
+  #lh-1 {
+    margin-top: 17px;
+    font-size: 36px;
+  }
+  #tamanho_do_texto {
+    font-size: 30px;
+  }
+}
+@media (max-width: 463px) {
+  #lh-1 {
+    font-size: 32px;
+  }
+  #tamanho_do_texto {
+    font-size: 28px;
+  }
+  #tamanho_P1 {
+    font-size: 20px;
+  }
+  #img_fotoprincipal {
+    height: 527px;
+  }
+  .lh-1 > span{
+    font-size: 34px;
+  }
+  #img_circular {
+    border-radius: 50%;
+    width: 360px;
+    height: 360px;
+}
+ 
+}
+@media screen and (max-width: 373px) {
+  #lh-1 {
+    font-size: 29px;
+    margin-bottom: 0;
+  }
+  #tamanho_do_texto {
+    font-size: 24px;
+  }
+  #tamanho_p1 {
+    font-size: 18px;
+  }
+  #btn {
+    width: 244px;
+    height: 57px;
+  }
+  #whatsapp_bi {
+    font-size: 22px;
+  }
+  #centralizar_tudo > #text_section2 {
+    font-size: 33px;
+    font-style: normal;
+    line-height: 76.5px;
+}
+
+}
+@media screen and (max-width: 367px) {
+  #lh-1 {
+    font-size: 29px;
+    margin-bottom: 0;
+  }
+  #tamanho_do_texto {
+    font-size: 24px;
+  }
+  #tamanho_p1 {
+    font-size: 18px;
+  }
+  #btn {
+    width: 244px;
+    height: 57px;
+  }
+  #whatsapp_bi {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 355px) {
+  .navbar > .container-fluid {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-nav {
+    align-items: center;
+    margin-top: 15px;
+  }
+  #img_circular {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+}
+
+/* ate aqui vai */
+@media screen and (max-width: 329px) {
+  .h2_section2, .h3_section2 {
+    color: rgb(6, 43, 33);
+    font-weight: bold;
+    font-size: 37px;
+}
+}
+@media screen and (max-width: 323px) {
+  #tamanho_do_texto {
+    font-size: 21px;
+}
+#img-footer{
+  width: 150px;
+}
+
+}
+@media screen and (max-width: 311px) {
+  #tamanho_do_texto {
+    font-size: 19px;
+}
+#lh-1 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+}
+@media screen and (max-width: 300px) {
+  #centralizar_tudo > #text_section2{
+    font-size: 28px;
+  }
+  #lh-1 {
+    font-size: 27px;
+    margin-bottom: 0;
+}
+#img_circular {
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+}
+#moudura_section2 {
+  text-align: center;
+}
+.lh-1 > span {
+  font-size: 26px;
+  text-align: center;
+}
+}
+
+
+@media screen and (max-width: 297px) {
+  #centralizar_tudo > #text_section2{
+    font-size: 28px;
+  }
+  #lh-1 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+#tamanho_do_texto {
+  font-size: 17px;
+}
+}
+
+@media screen and (max-width: 290px) {
+  .h2_section2, .h3_section2 {
+    color: rgb(6, 43, 33);
+    font-weight: bold;
+    font-size: 30px;
+}
+  #centralizar_tudo > #text_section2{
+    font-size: 28px;
+  }
+  #lh-1 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+#tamanho_do_texto {
+  font-size: 17px;
+}
+}
+
+@media screen and (max-width: 279px) {
+  #centralizar_tudo > #text_section2{
+    font-size: 28px;
+  }
+  #lh-1 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+#tamanho_P1 {
+  font-size: 16px;
+}
+#tamanho_do_texto {
+  font-size: 16px;
+}
+}
+
+@media screen and (max-width: 258px) {
+  #centralizar_tudo > #text_section2{
+    font-size: 28px;
+  }
+  #lh-1 {
+    font-size: 23px;
+    margin-bottom: 0;
+}
+#tamanho_P1 {
+  font-size: 16px;
+}
+#tamanho_do_texto {
+  font-size: 15px;
+}
+}
+

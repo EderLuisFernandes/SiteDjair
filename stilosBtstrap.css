@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  height: 100vh;
+}
+/* header */
+.bg-light {
+  background: linear-gradient(
+    90deg,
+    rgb(16, 125, 124),
+    10%,
+    rgb(9, 62, 54) 64%,
+    rgb(9, 62, 54) 100%
+  );
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+}
+.logo-img {
+  width: 250px;
+  padding: 1rem;
+}
+.navbar-light .navbar-nav .nav-link.active:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(16, 125, 124),
+    10%,
+    rgb(16, 125, 124) 64%,
+    rgb(9, 62, 54) 100%
+  );
+  opacity: 0.9;
+  border-radius: 30px;
+  transition: 0.7s;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(16, 125, 124),
+    10%,
+    rgb(16, 125, 124) 64%,
+    rgb(9, 62, 54) 100%
+  );
+  opacity: 0.9;
+  border-radius: 30px;
+  transition: 0.7s;
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+  margin-right: 15px;
+}
+/* AQUI FOI A PARTE DO NAV BAR  */
+
+/* SECTION 1 */
+main {
+  background: linear-gradient(90deg, #062b21 0%, #118585 100%);
+}
+.row {
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  --bs-gutter-x: 0;
+}
+.lh-1 {
+  text-shadow: 2px 3px 0px #000;
+  color: #fff;
+  font-size: 42px;
+  font-style: normal;
+
+  margin-bottom: 20px;
+  margin-left: 13px;
+}
+.lh-1 > span {
+  font-size: 55px;
+  font-style: normal;
+  line-height: 76.5px;
+ 
+}
+.lead {
+  text-shadow: 2px 2px 0px #000;
+  color: #fff;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 35px;
+  margin-left: 13px;
+}
+.lead_section2{
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.button_btn {
+  border: none;
+
+  width: 285px;
+  height: 60px;
+
+  text-align: center;
+  border-radius: 900px;
+  background: rgba(24, 190, 94, 1);
+  cursor: pointer;
+  margin: 0 auto;
+  margin-left: 13px;
+
+  display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+}
+.bi-whatsapp {
+  color: #fff;
+  font-size: 21px;
+  border-radius: 30px;
+}
+a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+a:hover {
+  color: #fff;
+}
+
+/*SECTION 2  */
+
+.section2 {
+  background-color: #ccc;
+}
+
+.container {
+  text-align: center;
+  padding: 0;
+}
+.h2_section2 {
+  padding-top: 50px;
+}
+.h2_section2,
+.h3_section2 {
+  color: rgb(6, 43, 33);
+  font-weight: bold;
+  font-size: 42px;
+}
+.h3_section2 {
+  margin-bottom: 46px;
+}
+#tamanho_img_section2 {
+  width: 140px;
+  height: 140px;
+  margin-top: 10px;
+}
+.col-lg-3 {
+  flex: 1 0 224px;
+  width: 100%;
+  text-align: center;
+}
+.tamanho-difer {
+  height: 120px;
+}
+#fw-normal_clinica {
+  font-size: 25px;
+}
+#Pnl_celebro {
+  font-size: 31px;
+}
+#text_section2 {
+  color: #000;
+  text-shadow: 1px 1px 0 #000;
+  font-weight: bolder;
+}
+#img_circular {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+#moudura_section2 {
+  background-color: rgba(255,255,255,0.3);
+  backdrop-filter: blur(10px);
+  color: #000;
+  text-shadow: 1px 1px 0px #fff;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+#img_section2 {
+  text-align: center;
+}
+#featured-3 h2{
+color: #fff;
+}
+#featured-3 #img-depo{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#depoimento-section3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  color: #Fff;
+  border: 1px solid rgba(28, 226, 110,1);
+  background:rgba(255,255,255,0.2) ;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 5px;
+}
+#depoimento-section3 p {
+  padding: 0 10px;
+  text-align: center;
+
+}
+.fs-2 {
+  font-size: calc(1.125rem + .9vw) !important;
+}
+
+.section4{
+  background-image: linear-gradient(90deg, #062b21 0%, #118585 100%); 
+  color: black;
+  height: 100%;
+  text-align: center;
+}
+.section4 h1{ 
+  color: #Fff;
+  font-size: 30px;
+  text-shadow: 0 0 20px black;
+}
+.lead_section4{
+  
+  color: #fff;
+  font-size: 23px;
+  width:80%;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  margin: 0 auto;
+}
+.lead_section4 span{
+  color: black;
+  text-shadow:  0 0 10px rgba(255,255,255,0.2);
+}
+
+footer{
+  color: #fff;
+}
+footer #insta, #whats{
+  font-size: 30px;
+}
+#img-footer img{
+  width: 190px;
+}
