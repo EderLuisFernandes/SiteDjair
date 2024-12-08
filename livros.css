@@ -83,3 +83,9 @@ header{
   #img-footer img{
     width: 190px;
   }
+
+  @media (max-width: 767px){
+    #nav-link{
+        flex-direction: column;
+    }
+  }
